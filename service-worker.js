@@ -19,6 +19,7 @@ self.addEventListener('install', function(event) {
 // Clone response to cache and send response to browser, if page is not cached serve a 404 image
 self.addEventListener('fetch', function(event) {
   event.respondWith(
+    console.log(event.request);
     caches.match(event.request).then(function(resp) {
       return resp || fetch(event.request).then(function(response) {
         let responseClone = response.clone();
