@@ -2,15 +2,13 @@
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
-## Project Overview: Stage 1
+## Project Overview:
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+- implemented ARIA and accesibility features
+- created a fully responsive app using css grid (which btw is awesome)
+- added full online experience using service worker and cache API
 
-### Specification
-
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
-
-### What do I do from here?
+### How to run this on localhost?
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
@@ -19,16 +17,13 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
 4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-OR
-Just npm install -g local-web-server then in console type 'ws' and make sure to update you local address in dbhelper.js
+**OR**
+**THE SIMPLE WAY**
+1. Download and install [Node JS](http://nodejs.org/)
+2. Test that node is installed with `node -v` than test npm is installed with `npm -v`
+2. Run npm install -g local-web-server then in you cli  type 'ws' while in the app root directory.
+Oh almost forgot ->  make sure to update you local address in dbhelper.js acordingly
 
 ## Leaflet.js and Mapbox:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
-
-
-
