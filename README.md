@@ -6,7 +6,7 @@
 
 - implemented ARIA and accesibility features
 - created a fully responsive app using css grid (which btw is awesome)
-- added full online experience using service worker and cache API
+- added full offline experience using service worker and cache API
 
 ### How to run this on localhost?
 
